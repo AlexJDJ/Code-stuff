@@ -1,0 +1,250 @@
+body{
+	margin: 0;
+	padding: 0; 
+	width: 100%;
+}
+.navbar navbar-expand-lg p-0 pl-3{
+	color:rgb(51, 51, 51);
+	background-color: whitesmoke;
+	margin: 0px;
+}
+
+
+.navlist{
+	float: left;
+}
+
+li a{
+	display: block;
+	text-align: center;
+	color: rgb(51, 51, 51);
+	padding: 14px 16px;
+	text-decoration: none;
+	font-family: georgia;
+}
+
+li a:hover{
+	background-color:darkred;
+	color: white;
+	text-decoration-line: none;
+}
+
+.active{
+	background-color: darkred;
+	color: white;
+}
+
+#home{
+	width: 100%;
+	height: 700px;
+	background-color:darkred;
+}
+
+
+#aboutnav{
+	float: right;
+}
+
+#racebanner{
+	height: 70px;
+	width: 100%;
+	background-color: darkred;
+	color: white;
+	font-family: Impact;
+	text-align: center;
+	margin: 0;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+}
+
+div{
+	margin: 0;
+}
+
+#racestitle{
+	margin: 0;
+}
+#races{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	flex-direction: column;
+	background-image: url(http://2.bp.blogspot.com/-FWrVXkSgiXI/UdT0Ckfs9FI/AAAAAAAABC8/0nXjDNLWBq0/s563/PathFinderRaces.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+
+
+}
+
+.race{
+	display: flex;
+	background-color: rgb(206, 68, 68);
+	text-align: center;
+	width: 80%;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	flex-direction: column;
+	border-radius: 25px;
+	border-style: solid;
+	border-color: darkred;
+	color: white; 
+	filter: opacity(80%);
+	margin-bottom: 1em;
+}
+
+.race li{
+	list-style: none;
+	padding-right: 25px;
+}
+
+.race h2{
+	text-align: center;
+	padding-left: 10px;
+}
+.racerow{
+	display: flex;
+	justify-content: space-between;
+	margin: 0px;
+	padding: 0px;
+}
+#classbanner{
+	height: 70px;
+	width: 100%;
+	background-color: darkred;
+	color: white;
+	font-family: Impact;
+	text-align: center;
+	margin: 0;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+}
+
+#classes{
+		display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background-image: url(http://www.nohighscores.com/wp-content/uploads/2014/10/dnd-phb-01jpg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding-right: 2em;
+
+}
+.class{
+		display: flex;
+	background-color: rgb(206, 68, 68);
+	text-align: center;
+	width: 80%;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	flex-direction: column;
+	border-radius: 25px;
+	border-style: solid;
+	border-color: darkred;
+	color: white; 
+	filter: opacity(80%);
+	margin-bottom: 1em;
+}
+
+.classrow{
+		display: flex;
+	justify-content: space-between;
+	margin: 0px;
+	padding: 0px;
+}
+
+.class li{
+	list-style:none
+}
+
+#barbpic{
+	height:115px;
+	width: 100px;
+	background-image: url(https://media-waterdeep.cursecdn.com/avatars/10/0/636336416778392507.jpeg);
+	background-position: center;
+}
+#bardpic{
+	height:115px;
+	width: 100px;
+	background-image: url(https://media-waterdeep.cursecdn.com/avatars/10/1/636336416923635770.jpeg);
+	background-position: center;
+}
+#Clerpic{
+	height:115px;
+	width: 100px;
+	background-image: url(https://media-waterdeep.cursecdn.com/avatars/10/2/636336417054144618.jpeg);
+	background-position: center;
+}
+#fighpic{
+	height:115px;
+	width: 100px;
+	background-image: url(https://media-waterdeep.cursecdn.com/avatars/10/4/636336417268495752.jpeg);
+	background-position: center;
+}
+#Rogupic{
+	height:115px;
+	width: 100px;
+	background-image: url(https://media-waterdeep.cursecdn.com/avatars/10/8/636336417681318097.jpeg);
+	background-position: center;
+}
+#wizapic{
+	height:115px;
+	width: 100px;
+	background-image: url(https://media-waterdeep.cursecdn.com/avatars/10/11/636336418370446635.jpeg);
+	background-position: center;
+}
+
+.caruselimage{
+	height: 700px;
+	width: 100%;
+
+
+}
+
+form{
+	margin: 1em;
+}
+
+#mysticimg{
+	margin: 1em;
+}
+
+#fire{
+	Padding-bottom: 2.5em;
+	background-color: darkred;
+	color: white;
+}
+
+.center-text{
+	position: absolute;
+	top: 50%;
+	bottom: 35%;
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	left: 37%;
+	right: 37%;
+	font-size: 40px;
+}
+
+.img-title{
+	top: 35%;
+	bottom: 50%;
+	color: white;
+	font-size: 75px;
+	left: 43%;
+	right: 37%;
+	font-family: Arial, Helvetica, sans-serif;
+	position: absolute;	
+}
+
+#image-stuff{
+	position: relative;
+	text-align: center;
+	margin: 0%;
+}

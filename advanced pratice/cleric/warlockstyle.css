@@ -1,0 +1,15 @@
+#navbar{
+	background-color: rgb(31, 31, 31);
+}
+#navbar a{
+	color: rgb(255, 215, 0);
+}
+.dropdown-menu{
+	background-color: rgb(31, 31, 31);
+}
+.dropdown-item{
+	color: rgb(255, 215, 0);
+}
+
+
+a
